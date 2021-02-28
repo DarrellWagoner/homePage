@@ -17,12 +17,8 @@
     <link rel="stylesheet" href="splitting.css">
 </head>
 <body>
-    
-    
   <div class="nav">
-      
-    <ul>
-        
+    <ul> 
       <img class="bee" src="ee.png" alt="logo">
       <img class="wings" src="wings.png" alt="logo">
         <li class="home">
@@ -50,20 +46,7 @@
         <div class="circle" data-splitting>
             css-html-javascript-php-react-
         </div>
-   
 </section>
-
-<div class="media">
-    <ul>
-        <li><ion-icon name="logo-linkedin"></a></ion-icon></li><a href="https://www.linkedin.com/feed/"></a>
-        <li><ion-icon name="logo-instagram"></ion-icon></li>
-        <li><ion-icon name="logo-twitter"></ion-icon></li>
-        <li><ion-icon name="logo-github"></ion-icon></li>
-    </ul>
-</div>
-
-
-
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
 
@@ -73,28 +56,23 @@
     var header = document.querySelector('header');
     header.classList.toggle('sticky', window.scrollY > 0);
     });
-
 </script>
 <script>
     $(document).ready(function(){
     
-    $(".banner .textBx h2").hide(2000).delay(300).slideUp(2100);
+    $(".banner .textBx h2").hide(1000).delay(300).slideUp(1000);
    $('.banner .textBX h2').slideUp(2000).slideDown(1000);
 
 });
-
-
  var typed = new Typed(".typing", {
      strings: ["web developer", "graphic artist", "photographer", "photo editor"],
     typeSpeed: 60,
     BackSpeed: 60,
     loop: true
  });
-
 $(function () {
 	$('.tlt').textillate();
 })
-
 </script>
 <script src="splitting.js"></script>
 <script> Splitting();</script>    
@@ -102,8 +80,6 @@ $(function () {
     let circle = document.querySelector('.circle')
     window.onmousemove = function(e){
         let x = e.clientY/-2; circle.style.transform = "perspective(1000px) rotateY(" + x + "deg) rotateX(15deg)";
-    }
-
-        
+    }  
 </script>
 </body

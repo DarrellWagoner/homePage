@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900display+swap');
-@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
 
 *{
@@ -10,9 +9,7 @@
     scroll-behavior: smooth;
     background: #222;
     color: #444;
-    
 }
-
 
 /* <--3dcircle--> */
 .circle
@@ -140,8 +137,7 @@ img{
     top: 50px;
     bottom: 50px;
 }
-.banner
-{
+.banner{
     position: relative;
     min-height: 100vh;
     background-size: cover;
@@ -149,83 +145,38 @@ img{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
 }
 
 
-#home h2
-{
+h2{
     padding-top: 10px;
     font-size: 2em;
     color: rgba(35,165,165,0.5);
     font-weight: 500;
     line-height: 1.5em;
     margin-left: -25px;
-    font: 300 32px/1.2 'Roboto Mono', monospace;
-    -webkit-font-smoothing: antialiased;
-    
+    font: 300 40px/1.2 'Roboto Mono', monospace;
 }
-#home h2 span
-{
-    margin-top: 5px;
+h2 span{
+    margin-top: 10px;
     font-size: 24px;
     font-weight: 500;
     color: red;
     font: 400 32px/1.2 'Roboto Mono', monospace;
-    -webkit-font-smoothing: antialiased;
-   
 }
-#home h3{
+h3{
     margin-top: 5px;
     margin-left: -25px;
     font: 300 32px/1 'Helvetica Neue',Helvetica,Arial,sans-serif;
-    -webkit-font-smoothing: antialiased;
     color: #eee;  
 }
-h3{
-    
-}
+
 
 .typing{
     color: rgba(35,165,165,0.5);
     font-size: 20px;
     font: 600 32px/1 'Helvetica Neue',Helvetica,Arial,sans-serif;
-    -webkit-font-smoothing: antialiased;
-   
 }
-
-.media
-{
-    position: relative;
-    justify-content: center;
-    align-items: center;
-   margin-left: 95%;
-    top: -60%;
-    z-index: 1;
-    right: 6%;
-    transition: 0.5s;
-    
-}
-.media ul li ion-icon{
-    color: rgb(128,128,128);
-    width: 50px;
-    height: 30px;
-    transition: 0.5s;
-}
-.media ul li ion-icon:hover
-{
-    color: #2196f3;
-    transition: 0.5s;
-    cursor: pointer;
-    width:30px;
-    height: 30px;
-}
-.media ul
-{
-    position: absolute;
-    list-style: none;
-}
-
 
 @media screen and (max-width: 992px){
     .circle .char{
