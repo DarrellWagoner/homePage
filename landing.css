@@ -23,6 +23,9 @@
     overflow-x: hidden;
     padding-top: 350px;
   }
+.social{
+    z-index: 1;
+}
  
   .sidenav a {
     padding: 6px 6px 16px;
@@ -46,12 +49,7 @@
     letter-spacing: .07em;
   }
   
-  .main {
-    margin-left: 160px; /* Same as the width of the sidenav */
-    font-size: 28px; /* Increased text to enable scrolling */
-    padding: 0px 10px;
-  }
-
+ 
 /* <--3dcircle--> */
 .circle
 {
@@ -86,36 +84,27 @@
     border-bottom: 2px dotted rgb(35, 165, 165);
     transform-style: preserve-3d;
     transform-origin: center;
-    transform: rotateY(calc(var(--char-index) * 12deg)) translateZ(250px);
+    transform: rotateY(calc(var(--char-index) * 12deg)) translateZ(200px);
     text-shadow: 500px 150px 10px rgba(35,165,165,0.5),
     300px 150px 10px rgba(255,0,0,0.5),
     150px 600px 0 rgba(255,0,0,0.5),
-    600px 50px 0 rgba(33,150,243, 0.5),
+    600px 50px 0 rgba(250,250,250, 0.5),
     400px 350px 0 rgba(0, 0, 0, 0.5),
     200px 500px 0 rgba(0,0,0,0.5),
     300px -150px 10px rgba(255,0,0,0.5),
     150px -600px 0 rgba(255,0,0,0.5),
     600px -50px 0 rgba(0,0,0,0.5),
     400px -350px 0 rgba(0,0,0,0.5),
-    200px -500px 0 rgba(33,150,243, 0.5);
+    200px -500px 0 rgba(35,165,165, 0.5);
 }
 .circle .char:hover
 {
-    background-color: #2196f3;
+    background-color: rgb(35, 165, 165);
     transition: 0.5s;
+    color:red;
+   
 }
 
-@keyframes wings {
-    0%
-    {
-    transform: perspective(1000px) rotateY(90deg) rotateX(15deg);
-    }
-   100%
-   {
-    transform: perspective(1000px) rotateY(0deg) rotateX(15deg);
-   }
-        
-}
 
 .banner{
     position: relative;
@@ -130,25 +119,24 @@
 
 h2{
     padding-top: 10px;
-    font-size: 2em;
     color: rgba(35,165,165,0.5);
     font-weight: 500;
     line-height: 1.5em;
     margin-left: -35px;
-    font: 300 40px/1.2 'Roboto Mono', monospace;
+    font: 300 50px/1.2 'Roboto Mono', monospace;
     margin-left: 200px;
 }
 h2 span{
     margin-top: 10px;
-    font-size: 24px;
+    
     font-weight: 500;
     color: red;
-    font: 400 32px/1.2 'Roboto Mono', monospace;
+    font: 50px/1.2 'Roboto Mono', monospace;
 }
 h3{
     margin-top: 5px;
     margin-left: -45px;
-    font: 300 32px/1 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    font: 50px/1.2 'Roboto Mono', monospace;
     color: #eee;  
     margin-left: 200px;
 }

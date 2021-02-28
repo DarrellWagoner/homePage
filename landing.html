@@ -24,7 +24,15 @@
         <a href="#clients">clients</a>
         <a href="#contact">work</a>
         <a href="#contact">contact</a>
+        
+    </div>
+    <div class="social">
+        <i class="fa fa-behance-square fa-4x"></i>
+        <i class="fa fa-linkedin-square fa-4x"></i>
+        <i class="fa fa-twitter-square fa-4x"></i>
+        <i class="fa fa-facebook-square fa-4x"></i>
  </div>
+
     <section class="banner" id="home">
         <div class="textBx">
             <h2>hello, i'm<br><span class="Name">d<span></span>arrell wagoner</span></h2>
@@ -47,8 +55,8 @@
 <script>
     $(document).ready(function(){
     
-    $(".banner .textBx h2").hide(1000).delay(300).slideUp(1000);
-   $('.banner .textBX h2').slideUp(2000).slideDown(1000);
+    $(".banner .textBx h2").slideDown(1000).delay(300).slideUp(1000);
+   $('.banner .textBX h2').slideUp(1000).slideDown(1000);
 
 });
  var typed = new Typed(".typing", {
