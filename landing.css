@@ -23,9 +23,7 @@
     overflow-x: hidden;
     padding-top: 350px;
   }
-.social{
-    z-index: 1;
-}
+ 
  
   .sidenav a {
     padding: 6px 6px 16px;
@@ -131,7 +129,7 @@ h2 span{
     
     font-weight: 500;
     color: red;
-    font: 50px/1.2 'Roboto Mono', monospace;
+    font: 40px/1.2 'Roboto Mono', monospace;
 }
 h3{
     margin-top: 5px;
